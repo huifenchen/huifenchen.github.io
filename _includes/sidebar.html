@@ -1,0 +1,23 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <img src="/public/pic.jpg" alt="" width="70%">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Profile</a>
+
+      <a class="sidebar-nav-item{% if page.url == "/teaching" %} active{% endif %}" href="/teaching">Teaching</a>
+      <a class="sidebar-nav-item{% if page.url == "/research" %} active{% endif %}" href="/research">Research</a>
+      <a class="sidebar-nav-item{% if page.url == "/contact" %} active{% endif %}" href="/contact">Contact</a>
+
+    </nav>
+
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+---
+layout: page
+title: Teaching
+permalink: teaching
+---
+
+<h2>Courses</h2>
+<ul>
+  {% for course in site.data.course %}
+    {% if course.link == "" %}
+      <li>{{ course.code }}&nbsp;:&nbsp;{{ course.name }}</li>
+    {% else %}
+      <li><a href="{{ course.link }}">{{ course.code }}</a>&nbsp;:&nbsp;{{ course.name }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>Interset</h2>
+<ul>
+  {% for inter in site.data.interest.teach %}
+  <li>{{ inter.topic }}</li>
+  {% endfor %}
+</ul>
+

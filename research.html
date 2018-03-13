@@ -1,0 +1,111 @@
+---
+layout: page
+title: Research
+permalink: research
+---
+
+<h2>Interset</h2>
+<ul>
+  {% for inter in site.data.interest.research %}
+  <li>{{ inter.topic }}</li>
+  {% endfor %}
+</ul>
+
+{% assign now_year = site.time | date: '%Y' | minus: 10 %}
+<h2>Publications</h2>
+<ul>
+  <li><h4>Papers (Recent 10 years)</h4></li>
+  <ul>
+    <li><h6>Journal papers</h6></li>
+    <ul>
+      {% for paper in site.data.paper.journal %}
+      {% if paper.year >= now_year %}
+      {% if paper.link == "" %}
+      <li>{{ paper.topic }}</li>
+      {% else %}
+      <li><a href="{{ paper.link }}">{{ paper.topic }}</a>
+        {% endif %}
+
+        {% endif %}
+        {% endfor %}
+    </ul>
+    <li><h6>Procedding papers</h6></li>
+    <ul>
+      {% for paper in site.data.paper.proceed %}
+      {% if paper.year >= now_year %}
+      {% if paper.link == "" %}
+      <li>{{ paper.topic }}</li>
+      {% else %}
+      <li><a href="{{ paper.link }}">{{ paper.topic }}</a>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+  </ul>
+</ul>
+<ul>
+  <li><h4>Other papers</h4></li>
+  <ul>
+    <li><h6>Journal papers</h6></li>
+    <ul>
+      {% for paper in site.data.paper.journal %}
+      {% if paper.year < now_year %}
+             {% if paper.link == "" %}
+             <li>{{ paper.topic }}</li>
+             {% else %}
+             <li><a href="{{ paper.link }}">{{ paper.topic }}</a>
+               {% endif %}
+               {% endif %}
+               {% endfor %}
+    </ul>
+    <li><h6>Procedding papers</h6></li>
+    <ul>
+      {% for paper in site.data.paper.proceed %}
+      {% if paper.year < now_year %}
+                    {% if paper.link == "" %}
+                    <li>{{ paper.topic }}</li>
+                    {% else %}
+                    <li><a href="{{ paper.link }}">{{ paper.topic }}</a>
+                      {% endif %}
+                      {% endif %}
+                      {% endfor %}
+    </ul>
+  </ul>
+</ul>
+
+<h2>Projects</h2>
+<table style="width:100%;font-size:18px">
+  <tr>
+    <th>計畫名稱</th>
+    <th>計畫名稱</th>
+    <th>補助機關</th>
+    <th>期間</th>
+  </tr>
+  {% for project in site.data.projects %}
+  <tr>
+    <td style="width:40%">{{ project.name }}</td>
+    <td style="width:auto">{{ project.role }}</td>
+    <td style="width:20%">{{ project.sup}}</td>
+    <td style="width:auto">{{ project.times }}</td>
+  </tr>
+  {% endfor %}
+</table>
+<table style="width:100%;font-size:18px">
+  <tr>
+    <th colspan="4">大專學生參與專題研究計畫</th>
+  </tr>
+  <tr>
+    <th>計畫名稱</th>
+    <th>計畫名稱</th>
+    <th>補助機關</th>
+    <th>期間</th>
+  </tr>
+  {% for project in site.data.stu_project %}
+  <tr>
+    <td style="width:40%">{{ project.name }}</td>
+    <td style="width:auto">{{ project.role }}</td>
+    <td style="width:20%">{{ project.sup}}</td>
+    <td style="width:auto">{{ project.times }}</td>
+  </tr>
+  {% endfor %}
+</table>

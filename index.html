@@ -1,0 +1,25 @@
+---
+layout: page 
+title: Profile
+---
+
+<h2>Education</h2>
+<ul>
+  {% for edu in site.data.profile.education %}
+  <li>
+    {{ edu.degree }}, {{ edu.major }}<br>
+    {{ edu.school }}
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>Working Experience</h2>
+<ul>
+  {% for work in site.data.profile.work %}
+  <li>
+    {{ work.role }}<br>
+    {{ work.company }}<br>
+    {{ work.start }} ~ {{ work.end }}
+  </li>
+  {% endfor %}
+</ul>

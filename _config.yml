@@ -1,0 +1,10 @@
+# Dependencies
+markdown:        kramdown
+
+# Setup
+title:           Huifen Chen 
+
+email: huifen@cycu.edu.tw
+url:              https://huifenchen.github.io
+baseurl:          /
+
