@@ -1,7 +1,7 @@
-school: 中原大學 工業與系統工程系             
-address: 中壢市中北路200號                  
-tel: (03)2654413     
-phone: 0933-962-472                       
+school: 中原大學 工業與系統工程系<br>Chung Yuan Christian University Department of Industrial and Systems Engineering
+address: "32023 桃園市中壢區中北路200號<br> 200 Chung Pei Road, Chung Li District, Taoyuan City, Taiwan 32023, R.O.C." 
+tel: (03)2654413
+phone: 0933-962-472
 fax: (03)2654499
 email: huifen@cycu.edu.tw
 education:
@@ -20,16 +20,22 @@ work:
 
     - company: 中原大學 工業與系統工程系
       role: 教授
+      company_e: Chung Yuan Christian University, Department of Industrial and Systems Engineering
+      role_e: Professor
       start: 2005/8
       end: present
 
-    - company: 中原大學 工業工程系
+    - company: 中原大學 工業與系統工程系
       role: 副教授
+      company_e: Chung Yuan Christian University, Department of Industrial and Systems Engineering
+      role_e: Associate Professor
       start: 1999/8
       end: 2005/7
 
     - company: 大葉大學 工業工程系
       role: 副教授
+      company_e: Da-Yeh University, Department of Industrial and Systems Engineering
+      role_e: Associate Professor
       start: 1994/9
       end: 1999/7
 
