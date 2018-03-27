@@ -3,202 +3,302 @@ journal:
     - year: 2017
       topic: "Chen, H. and B.W. Schmeiser.  (2017). MNO-PQRS: Max Nonnegativity Ordering---Piecewise-Quadratic Rate Smoothing.  ACM TOMACS (<i>Transactions on Modeling and Computer Simulation</i>), Vol. <b>27</b>, No. 3, Article 18, 18:1-19."
       link: ""
+      clink: "2017MNO-PQRS_Max_Nonnegativity_Ordering---Piecewise-Quadratic_Rate_Smoothing/MNO-PQRS_code.zip"
+      slink: ""
 
     - year: 2017
-      topic: 'Chen, H., D. Goldsman, B.W. Schmeiser, and K. Tsui (2017).  Symmetric  Charts: Sensitivity to Nonnormality and Control-Limit Estimation.  <i>Communications in Statistics---Simulation and Computation</i> <b>46</b>(1), 358-378.  Published online in May 18, 2015: <a href="http://www.tandfonline.com/doi/full/10.1080/03610918.2014.963615">link</a>'
-      link: ""
+      topic: 'Chen, H., D. Goldsman, B.W. Schmeiser, and K. Tsui (2017).  Symmetric  Charts: Sensitivity to Nonnormality and Control-Limit Estimation.  <i>Communications in Statistics---Simulation and Computation</i> <b>46</b>(1), 358-378.  Published online in May 18, 2015: <a href="http://www.tandfonline.com/doi/full/10.1080/03610918.2014.963615">(link)</a>'
+      link: "2017Symmetric_Xbar_Charts_Sensitivity_to_Nonnormality_and_Control-Limit_Estimation.pdf"
+      clink: ""
+      slink: ""
 
     - year: 2016
-      topic: 'Hsian, T.-M., H. Chen, and C.-H. Wu (2016).  Statistical Methods for Assessing the Cutoff Points of Metabolic Syndrome Criteria. <i>Communications in Statistics---Simulation and Computation</i>, accepted in March 2016.  Published online in June 02, 2016: <a href="http://www.tandfonline.com/doi/full/10.1080/03610918.2016.1171347">link</a>'
-      link: ""
+      topic: 'Hsian, T.-M., H. Chen, and C.-H. Wu (2016).  Statistical Methods for Assessing the Cutoff Points of Metabolic Syndrome Criteria. <i>Communications in Statistics---Simulation and Computation</i>, accepted in March 2016.  Published online in June 02, 2016: <a href="http://www.tandfonline.com/doi/full/10.1080/03610918.2016.1171347">(link)</a>'
+      link: "2016Statistical_Methods_for_Assessing_the_Cutoff_Points_of_Metabolic_Syndrome_Criteria.pdf"
+      clink: ""
+      slink: ""
 
     - year: 2015
       topic: "Ho, Y.-C., B.-H. Su, H.-J. Su, H.-L. Chang, C.-Y. Lin, H. Chen, and K. T Chen. (2015). The association between the incidence of mumps and meteorological parameters in Taiwan.<i>Human vaccines & immunotherapeutics</i> <b>11</b>:6, 1406-1412."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2014
       topic: "Chen, H. and C. Huang (2014).  The Use of a CUSUM Residual Chart to Monitor Respiratory Syndromic Data.  <i>IIE Transactions</i>, Special Issue on “Public Health and Healthcare Surveillance and Response,” <b>46</b>(8), 790-797.  (SCI)"
-      link: ""
+      link: "2014The_Use_of_a_CUSUM_Residual_Chart_to_Monitor_Respiratory_Syndromic_Data.pdf"
+      clink: ""
+      slink: ""
 
     - year: 2014
       topic: "Chen, H. and Y. Chen (2014).  CUSUM Residual Charts for Monitoring Enterovirus Infections.  <i>Journal of Quality</i> <b>21</b>(4),  217-230.   (EI)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2013
       topic: "Chen, H. and B.W. Schmeiser (2013).  I-SMOOTH: Iteratively Smoothing Mean-Constrained and Nonnegative Piecewise-Constant Functions.  INFORMS <i>Journal on Computing</i> <b>25</b>(3), 432–445.   (SCI)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2012
       topic: "Chen, H., K.-I. Huang, and K.-Y. Wu (2012).  An Influenza-Pandemic Intervention-Strategy Simulator.  <i>Journal of Advanced Engineering</i> <b>7</b>(4), page 213–219.  (Chinese)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2011
       topic: "Chen, H. and Y. Pao (2011).  The Joint Economic-Statistical Design of  and R Charts for Nonnormal Data.  <i>Quality and Reliability Engineering International</i> <b>27</b>, No. 3, 269–280. Article first published online: 15 JUL 2010, DOI: 10.1002/qre.1116."
-      link: ""
+      link: "2011The_Joint_Economic-Statistical_Design_of__Xbar_and_R_Charts_for_Nonnormal_Data.pdf"
+      clink: ""
+      slink: ""
 
     - year: 2010
       topic: "Chen, H. and W. Kuo (2010).  Comparisons of the Symmetric and Asymmetric Control Limits for  and R Charts.  <i>Computers and Industrial Engineering</i> <b>59</b>, 903–910."
-      link: ""
+      link: "2010Comparisons_of_the_Symmetric_and_Asymmetric_Control_Limits_for_Xbar_and_R_Charts.pdf"
+      clink: ""
+      slink: ""
 
     - year: 2009
       topic: "Chen, H. and Y. Cheng (2009).  Designing  Charts for Known Autocorrelations and Unknown Marginal Distribution. <i>European Journal of Operational Research</i> <b>198</b>(2), 520–529."
-      link: ""
+      link: "2009Designing_Xbar_Charts_for_Known_Autocorrelations_and_Unknown_Marginal_Distribution/paper.pdf"
+      clink: ""
+      slink: "2009Designing_Xbar_Charts_for_Known_Autocorrelations_and_Unknown_Marginal_Distribution/supplement.pdf"
 
     - year: 2007
       topic: "Chen, H. and Y. Cheng (2007).  Nonnormality Effects on the Economic-Statistical Design of Xbar Charts with Weibull In-Control Time.  <i>European Journal of Operational Research</i> <b>176</b>(2), 986–998."
-      link: ""
+      link: "2007Nonnormality_Effects_on_the_Economic-Statistical_Design_of_Xbar_Charts_with_Weibull_In-Control_Time.pdf"
+      clink: ""
+      slink: ""
 
     - year: 2006
       topic: "Chen, H. and Y. Hwuang (2006).  Stochastic Optimization for System Designs.  <i>Journal of the Chinese Institute of Industrial Engineers</i> <b>26</b>, No. 5, 357–370.    (EI)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2006
       topic: "Chang, K.-H., H. Chen, and C.-F. Lin (2006).  Application of Two-Stage Stochastic Linear Program for Portfolio Selection Problem.  M. Gavrilova et al. (Eds.):  ICCSA 2006, LNCS (Lecture Notes in Computer Science) <b>3982</b>, 944–953."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2005
       topic: "Chen, H. and C.-H. Yeh (2005).  Asymptotic Results for Batch-Variance Methods in Simulation Output Analysis.  <i>Computers and Industrial Engineering</i> (a special issue) <b>48</b>, 23–37.    (SCI)"
-      link: ""
+      link: "2005Asymptotic_Results_for_Batch-Variance_Methods_in_Simulation_Output_Analysis.pdf"
+      clink: ""
+      slink: ""
 
     - year: 2004
       topic: "Chen, H. and M. Chen (2004).  Designing Simulation Software for City Bus Systems.  <i>Chung-Yuan Journal</i> <b>32</b>, No. 3, 349–362.  (Chinese)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2004
       topic: "Chen, H., K.-H. Chang, and L. Cheng (2004).  Estimation of Means and Covariances of Inverse-Gaussian Order Statistics.  <i>European Journal of Operational Research</i> <b>155</b>, 154–169.     (SCI)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2002
       topic: "Chen, H., W.T. Song, and Z. Lee (2002).  RA-Quadsection Methods for Two-Dimensional Stochastic Root Finding.  <i>Journal of the Chinese Institute of Industrial Engineers</i> <b>19</b>, 93–104.  (Chinese)  (EI)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2002
       topic: "Chen, H. (2002).  RCOSPP: Generation of Event Times from Trigonometric-Rate Poisson Processes.  <i>Chung-Yuan Journal</i> (中原學報) <b>30</b>, 367–371."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2001
       topic: "Gong, D., C. Chiu, K. Wang, K. Chang, H. Chen, and M. Yang (2001).  A Hospital Public Transportation System’s Route and Schedule Planning.  <i>Journal of the Chinese Institute of Industrial Engineers</i> <b>18</b>, 43–56.  (Chinese)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2001
       topic: "Chen, H. (2001).  Initialization for NORTA: Generation of Random Vectors with Specified Marginals and Correlations.  <i>INFORMS Journal on Computing</i> <b>13</b>,  312–331."
-      link: ""
+      link: "2001Initialization_for_NORTA_Generation_of_Random_Vectors_with_Specified_Marginals_and_Correlations/MultivariatePaper.pdf"
+      clink: "2001Initialization_for_NORTA_Generation_of_Random_Vectors_with_Specified_Marginals_and_Correlations/NORTA_C_code.zip"
+      slink: ""
 
     - year: 2001
       topic: "Chen, H. and H. Chen (2001).  A Heuristic Algorithm for Stochastic Root Finding.  <i>Asia-Pacific Journal of Operational Research</i> <b>18</b>, 13–22.    (SCI)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2001
       topic: "Chen, H. and B.W. Schmeiser (2001). Stochastic Root Finding via Retrospective Approximation.  <i>IIE Transactions</i> <b>33</b>, 259–275.    (SCI)"
-      link: ""
+      link: "2001Stochastic_Root_Finding_via_Retrospective_Approximation/paper.pdf"
+      clink: "2001Stochastic_Root_Finding_via_Retrospective_Approximation/SRFP-code.zip"
+      slink: ""
 
     - year: 1999
       topic: "Chen, H. and T.-K. Yang (1999).  Computation of the Sample Size and Coverage for Guaranteed-Coverage Nonnormal Tolerance Intervals.  <i>Journal of Statistical Computation and Simulation</i> <b>63</b>, 299–320.   (SCI)"
-      link: ""
+      link: "1999Computation of the Sample Size and Coverage for Guaranteed-Coverage Nonnormal Tolerance Intervals.pdf"
+      clink: "GCTI-code.exe"
+      slink: ""
 
     - year: 1995
       topic: "Chen, H. and B.W. Schmeiser (1995).  Monte Carlo Estimation for Guaranteed-Coverage Nonnormal Tolerance Intervals.  <i>Journal of Statistical Computation and Simulation</i> <b>51</b>, 223–238.   (SCI)"
-      link: ""
+      link: "1995Monte_Carlo_Estimation_for_Guaranteed-Coverage_Nonnormal_Tolerance_Intervals.pdf"
+      clink: ""
+      slink: ""
 
 
 proceed:
     - year: 2015
       topic: "Chen, H. and B.W. Schmeiser (2015). The MNO–PQRS Poisson Point Process: Generating the Next-Event Time. <i>Proceedings of the 2015 Winter Simulation Conference</i>, ed. L. Yilmaz,W. K V. Chan, I. Moon, T. M. K. Roeder, C. Macal, and M. D. Rossetti, December 6-9, 2015, Huntington Beach, California, USA.  Piscataway, New Jersey: Institute of Electrical and Electronics Engineers.  (EI)"
-      link: ""
+      link: "2015The_MNO–PQRS_Poisson_Point_Process_Generating_the_Next-Event_Tim/15-07-22wsc15CreatedByProceedingsEditor.pdf"
+      clink: ""
+      slink: ""
 
     - year: 2014
       topic: "Chen, H. and B.W. Schmeiser (2014).  Piecewise-Quadratic Rate Functions: The Cyclic Context.  <i>Proceedings of the 2014 Winter Simulation Conference</i>, ed. A. Tolk, S. D. Diallo, I. O. Ryzhov, L. Yilmaz, S. Buckley, and J. A. Miller, December 7-11, 2014, Savannah, Georgia, USA.  (EI)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2013
       topic: "Chen, H. and Y. Chen (2013).  CUSUM residual charts for monitoring enterovirus infections.  <i>Proceedings of the 2013 IIE Asian Conference</i>, July 18-20, Taipei, Taiwan."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2011
       topic: "Chen, H. and B.W. Schmeiser (2011). I-SMOOTH: Iteratively Smoothing Piecewise-Constant Poisson-Process Rate Functions.  <i>Proceedings of the 2011 Winter Simulation Conference</i>, ed. S. Jain, R. R. Creasey, J. Himmelspach, K. P. White, and M. Fu, December 11-14, 2011, Phoenix, Arizona, USA.    (EI)"
       link: ""
+      clink: "2013I-SMOOTH_Iteratively_Smoothing_Mean-Constrained_and_Nonnegative_Piecewise-Constant_Functions/ISMOOTH_code.zip"
+      slink: ""
 
     - year: 2011
       topic: "H. Chen and K.-Y. Wu (2011).  Pandemic Influenza Simulation with Taiwan Population Data.  Poster Session.  <i>IIE Asian Conference</i>, June 2011, Shanghai, China."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2009
       topic: "Liu, S. and H. Chen (2009). Regression Analysis for the Climate Effects on Seasonal Variations in the Urinary Lithotripsy: A Regional Hospital Based Study.  <i>Proceedings of the 2nd International Conference on BioMedical Engineering and Informatics</i>, October 2009, Tianjin, China.    (EI)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2008
       topic: "Chen, H., Y. Cheng, D. Goldsman, K. Tsui, and B. Schmeiser  (2008).  Robustness of Symmetric  Charts to Nonnormality and Control-Limit Estimation.  <i>Proceedings of the 14th ISSAT International Conference on Reliability and Quality in Design</i>, Editors: Hoang Pham & Toshio Nakagawa, page 94-99, August 2008, Orlando, Florida, USA (invited paper).   ISBN: 978-0-9763486-4-1."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2007
       topic: "Cheng, Y. and H. Chen (2007).  A Model-Free Design of  Charts for Unknown Autocorrelated Processes. <i>Proceedings of the IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)</i>, Singapore, December 2007.  (EI)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2007
       topic: "Chen, H. and W. Kuo (2007).  Comparisons of the Symmetric and Asymmetric Control Limits for  Charts. <i>Proceedings of the IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)</i>, Singapore, December 2007.  (EI)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2007
       topic: "Chen, H. and W. Kuo (2007).  Comparisons of the Symmetric and Asymmetric Control Limits for R Charts.  <i>Proceedings of the 8th Asia Pacific Industrial Engineering & Management System (APIEMS) and 2007 Chinese Institute of Industrial Engineers (CIIE) Conference</i>, Kaohsiung, Taiwan, December 2007."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2006
       topic: "Chen, H., Y. Cheng, and H. Lin (2006).  A New Statistical Design of the Shewhart Xbar Chart for Autocorrelated Data.  <i>Proceedings of Chinese Institute of Industrial Engineers</i>, Taiwan.  December 2006."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2006
       topic: "Chen, H., K-H. Chang, and Y. Pao (2006).  The Joint Economic-Statistical Design of Xbar and R Control Charts for Nonnormal Data.  <i>Proceedings of the 2nd International Symposium on Management, Engineering and Informatics (MEI)</i>, Orlando, USA, July 2006."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2006
       topic: "Chen, H. and Y. Cheng (2006).  Model-Free  Charts for Autocorrelated Data.  <i>Proceedings of the 36th Conference on Computers and Industrial Engineering</i> (p.744~754), Taipei, Taiwan.  June 2006."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2004
       topic: "Chen, H. and Y. Cheng (2004).  The Economic-Statistical Design of  Control Charts for Nonnormal Data and Weibull In-Control Time.  <i>Proceedings of the 34th International Conference of Computers and Industrial Engineering</i>, San Francisco, USA, November 2004.    (EI)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2003
       topic: "Chen, H. and C. Yeh (2003).  Simulation Output Analysis for Variance Performance Measures.  <i>Proceedings of the 31st International Conference of Computers and Industrial Engineering</i>, San Francisco, USA, February 2003."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2002
       topic: "Chen, H. (2002).  Stochastic Optimization in Computing Multiple Headways for a Single Bus Line.  <i>Proceedings of the 35th Annual Simulation Symposium</i>, San Diego, California, USA, April 2002, 316-323.    (EI)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 2000
       topic: "Chen, H. and H. Chen (2000).   A Heuristic Algorithm for Stochastic Root Finding.  <i>Proceedings of the Fifth Conference of the Asia-Pacific Operations Research Societies</i>, Singapore, July 2000."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 1999
       topic: "Chen, H, F. Lou, and T. Yang (1999).  Stochastic Optimization for Computing Bus Headways.  <i>Proceedings of Chinese Institute of Industrial Engineers</i>.  (Chinese)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 1998
       topic: "Chen, H. and T. Yang (1998).  Estimation of the Sample Size and Coverage for Guaranteed-Coverage Nonnormal Tolerance Intervals.  <i>Proceedings of the 1998 Winter Simulation Conference</i>, ed. D.J. Medeiros, E.F. Watson, J.S. Carson, and M.S. Manivannan, 593--600."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 1997
       topic: "Chen, H. and T. Yang (1997).  Monte Carlo Estimation of the Minimal Reliability and Sample Size for Nonnormal Guaranteed-Coverage Tolerance Intervals.  <i>Proceedings of Chinese Institute of Industrial Engineers</i>.  (Chinese)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 1995
       topic: "Chen, H. and C. Cheng (1995).  Generation of Multivariate Random Vectors Using Retrospective Approximation Algorithms.  <i>Proceedings of Chinese Institute of Industrial Engineers</i>.  (Chinese)"
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 1994
       topic: "Chen, H. and B.W. Schmeiser (1994).  Retrospective Approximation Algorithms for Stochastic Root Finding.  <i>Proceedings of the 1994 Winter Simulation Conference</i>, ed. J.D. Tew, S. Manivannan, D.A. Sadowski, and A.F. Seila, 255-261."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 1994
       topic: "Chen, H. and B.W. Schmeiser (1994).  Stochastic Root Finding: Problem Definition, Examples, and Algorithms.  <i>Proceedings of the Third Industrial Engineering Research Conference</i>, ed. L. Burke and J. Jackman, 605-610."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 1993
       topic: "Chen, H. and B.W. Schmeiser (1993).  Monte Carlo Estimation for Guaranteed-Coverage Nonnormal Tolerance Intervals.  <i>Proceedings of the 1993 Winter Simulation Conference</i>, ed. G.W. Evans, M. Mollaghasemi, E.C. Russell, and W.E. Biles, 509-515."
       link: ""
+      clink: ""
+      slink: ""
 
     - year: 1992
       topic: "Chen H. and B.W. Schmeiser (1992).  Simulation of Poisson Processes with Trigonometric Rates.  <i>Proceedings of the 1992 Winter Simulation Conference</i>, ed. J.J. Swain, D. Goldsman, R.C. Crain, and J.R. Wilson, 609-617."
       link: ""
+      clink: ""
+      slink: ""
 

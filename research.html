@@ -20,26 +20,37 @@ permalink: research
     <ul>
       {% for paper in site.data.paper.journal %}
       {% if paper.year >= now_year %}
-      {% if paper.link == "" %}
-      <li>{{ paper.topic }}</li>
-      {% else %}
-      <li><a href="{{ paper.link }}">{{ paper.topic }}</a>
-        {% endif %}
-
-        {% endif %}
-        {% endfor %}
+        {% if paper.link == "" and paper.clink != "" and paper.slink == "" %}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.clink }}" target="_blank">(code)</a>
+        {% elsif paper.link != "" and paper.clink == "" and paper.slink == ""%}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.link }}" target="_blank">(paper)</a>
+        {% elsif paper.link != "" and paper.clink != "" and paper.slink == ""%}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.link }}" target="_blank">(paper)</a><a href="/assets/{{ paper.clink }}" target="_blank">(code)</a>
+        {% elsif paper.slink != "" %}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.link }}" target="_blank">(paper)</a><a href="/assets/{{ paper.slink }}" target="_blank">(paper2)</a>
+        {% else %}
+            <li>{{ paper.topic }}</li>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
     </ul>
     <li><h6>Procedding papers</h6></li>
     <ul>
       {% for paper in site.data.paper.proceed %}
       {% if paper.year >= now_year %}
-      {% if paper.link == "" %}
-      <li>{{ paper.topic }}</li>
-      {% else %}
-      <li><a href="{{ paper.link }}">{{ paper.topic }}</a>
-        {% endif %}
-        {% endif %}
-        {% endfor %}
+        {% if paper.link == "" and paper.clink != "" and paper.slink == "" %}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.clink }}" target="_blank">(code)</a>
+        {% elsif paper.link != "" and paper.clink == "" and paper.slink == ""%}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.link }}" target="_blank">(paper)</a>
+        {% elsif paper.link != "" and paper.clink != "" and paper.slink == ""%}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.link }}" target="_blank">(paper)</a><a href="/assets/{{ paper.clink }}" target="_blank">(code)</a>
+        {% elsif paper.slink != "" %}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.link }}" target="_blank">(paper)</a><a href="/assets/{{ paper.slink }}" target="_blank">(paper2)</a>
+        {% else %}
+            <li>{{ paper.topic }}</li>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
     </ul>
   </ul>
 </ul>
@@ -50,11 +61,17 @@ permalink: research
     <ul>
       {% for paper in site.data.paper.journal %}
       {% if paper.year < now_year %}
-             {% if paper.link == "" %}
-             <li>{{ paper.topic }}</li>
-             {% else %}
-             <li><a href="{{ paper.link }}">{{ paper.topic }}</a>
-               {% endif %}
+        {% if paper.link == "" and paper.clink != "" and paper.slink == "" %}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.clink }}" target="_blank">(code)</a>
+        {% elsif paper.link != "" and paper.clink == "" and paper.slink == ""%}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.link }}" target="_blank">(paper)</a>
+        {% elsif paper.link != "" and paper.clink != "" and paper.slink == ""%}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.link }}" target="_blank">(paper)</a><a href="/assets/{{ paper.clink }}" target="_blank">(code)</a>
+        {% elsif paper.slink != "" %}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.link }}" target="_blank">(paper)</a><a href="/assets/{{ paper.slink }}" target="_blank">(paper2)</a>
+       {% else %}
+            <li>{{ paper.topic }}</li>
+      {% endif %}
                {% endif %}
                {% endfor %}
     </ul>
@@ -62,11 +79,17 @@ permalink: research
     <ul>
       {% for paper in site.data.paper.proceed %}
       {% if paper.year < now_year %}
-                    {% if paper.link == "" %}
-                    <li>{{ paper.topic }}</li>
-                    {% else %}
-                    <li><a href="{{ paper.link }}">{{ paper.topic }}</a>
-                      {% endif %}
+        {% if paper.link == "" and paper.clink != "" and paper.slink == "" %}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.clink }}" target="_blank">(code)</a>
+        {% elsif paper.link != "" and paper.clink == "" and paper.slink == ""%}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.link }}" target="_blank">(paper)</a>
+        {% elsif paper.link != "" and paper.clink != "" and paper.slink == ""%}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.link }}" target="_blank">(paper)</a><a href="/assets/{{ paper.clink }}" target="_blank">(code)</a>
+        {% elsif paper.slink != "" %}
+            <li>{{ paper.topic }}<a href="/assets/{{ paper.link }}" target="_blank">(paper)</a><a href="/assets/{{ paper.slink }}" target="_blank">(paper2)</a>
+        {% else %}
+            <li>{{ paper.topic }}</li>
+      {% endif %}
                       {% endif %}
                       {% endfor %}
     </ul>
