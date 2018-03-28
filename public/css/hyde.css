@@ -66,11 +66,13 @@ html {
     
     font-family: "PT Sans", Helvetica, Arial, sans-serif, serif;
 
+    font-size: 14px;
 
     /*font-family: cwTeXFangSong, serif;
     * 
      */
 }
+/*
 @media (min-width: 48em) {
   html {
     font-size: 16px;
@@ -81,6 +83,7 @@ html {
     font-size: 20px;
   }
 }
+*/
 
 
 /*
@@ -96,6 +99,15 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+/*
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -106,6 +118,7 @@ html {
     text-align: left;
   }
 }
+*/
 
 /* Sidebar links */
 .sidebar a {
@@ -142,6 +155,7 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
+/*
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
@@ -150,7 +164,7 @@ a.sidebar-nav-item:focus {
     left:   1rem;
   }
 }
-
+*/
 
 /* Container
  *
@@ -162,7 +176,11 @@ a.sidebar-nav-item:focus {
   padding-top:    4rem;
   padding-bottom: 4rem;
 }
-
+  .content {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+/*
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
@@ -177,14 +195,14 @@ a.sidebar-nav-item:focus {
     margin-right: 4rem;
   }
 }
-
+*/
 
 /*
  * Reverse layout
  *
  * Flip the orientation of the page by placing the `.sidebar` on the right.
  */
-
+/*
 @media (min-width: 48em) {
   .layout-reverse .sidebar {
     left: auto;
@@ -202,7 +220,7 @@ a.sidebar-nav-item:focus {
     margin-right: 22rem;
   }
 }
-
+*/
 
 
 /*
