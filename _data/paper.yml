@@ -5,35 +5,35 @@ journal:
       link: ""
       clink: "2017MNO-PQRS_Max_Nonnegativity_Ordering---Piecewise-Quadratic_Rate_Smoothing/MNO-PQRS_code.zip"
       slink: ""
-      wlink: ""
+      wlink: "https://dl.acm.org/citation.cfm?id=3067663"
 
     - year: 2017
       topic: 'Chen, H., D. Goldsman, B.W. Schmeiser, and K. Tsui (2017).  Symmetric Xbar Charts: Sensitivity to Nonnormality and Control-Limit Estimation.  <i>Communications in Statistics---Simulation and Computation</i> <b>46</b>(1), 358-378.' 
       link: "2017Symmetric_Xbar_Charts_Sensitivity_to_Nonnormality_and_Control-Limit_Estimation.pdf"
       clink: ""
       slink: ""
-      wlink: "http://www.tandfonline.com/doi/full/10.1080/03610918.2014.963615"
+      wlink: "https://doi.org/10.1080/03610918.2014.963615"
 
-    - year: 2016
+    - year: 2017
       topic: 'Hsiao, T.-M., H. Chen, and C.-H. Wu (2017).  Statistical Frameworks for Setting Cutoff Points of Metabolic Syndrome Criteria. <i>Communications in Statistics---Simulation and Computation</i>, <b>46</b>(7), 5666-5681.'
       link: "2016Statistical_Methods_for_Assessing_the_Cutoff_Points_of_Metabolic_Syndrome_Criteria.pdf"
       clink: ""
       slink: ""
-      wlink: "http://www.tandfonline.com/doi/full/10.1080/03610918.2016.1171347"
+      wlink: "https://doi.org/10.1080/03610918.2016.1171347"
 
     - year: 2015
       topic: "Ho, Y.-C., B.-H. Su, H.-J. Su, H.-L. Chang, C.-Y. Lin, H. Chen, and K. T Chen. (2015). The association between the incidence of mumps and meteorological parameters in Taiwan.<i>Human vaccines & immunotherapeutics</i> <b>11</b>:6, 1406-1412."
       link: ""
       clink: ""
       slink: ""
-      wlink: ""
+      wlink: "https://doi.org/10.1080/21645515.2015.1029687"
 
     - year: 2014
       topic: "Chen, H. and C. Huang (2014).  The Use of a CUSUM Residual Chart to Monitor Respiratory Syndromic Data.  <i>IIE Transactions</i>, Special Issue on “Public Health and Healthcare Surveillance and Response,” <b>46</b>(8), 790-797.  "
       link: "2014The_Use_of_a_CUSUM_Residual_Chart_to_Monitor_Respiratory_Syndromic_Data.pdf"
       clink: ""
       slink: ""
-      wlink: ""
+      wlink: "https://doi.org/10.1080/0740817X.2012.761369"
 
     - year: 2014
       topic: "Chen, H. and Y. Chen (2014).  CUSUM Residual Charts for Monitoring Enterovirus Infections.  <i>Journal of Quality</i> <b>21</b>(4),  217-230.   (EI)"
@@ -47,7 +47,7 @@ journal:
       link: ""
       clink: "2013I-SMOOTH_Iteratively_Smoothing_Mean-Constrained_and_Nonnegative_Piecewise-Constant_Functions/ISMOOTH_code.zip"
       slink: ""
-      wlink: ""
+      wlink: "https://doi.org/10.1287/ijoc.1120.0512"
 
     - year: 2012
       topic: "Chen, H., K.-I. Huang, and K.-Y. Wu (2012).  An Influenza-Pandemic Intervention-Strategy Simulator.  <i>Journal of Advanced Engineering</i> <b>7</b>(4), page 213–219.  (Chinese)"
@@ -61,20 +61,27 @@ journal:
       link: "2011The_Joint_Economic-Statistical_Design_of__Xbar_and_R_Charts_for_Nonnormal_Data.pdf"
       clink: ""
       slink: ""
-      wlink: ""
+      wlink: "https://doi.org/10.1002/qre.1116"
 
     - year: 2010
       topic: "Chen, H. and W. Kuo (2010).  Comparisons of the Symmetric and Asymmetric Control Limits for Xbar and R Charts.  <i>Computers and Industrial Engineering</i> <b>59</b>, 903–910."
       link: "2010Comparisons_of_the_Symmetric_and_Asymmetric_Control_Limits_for_Xbar_and_R_Charts.pdf"
       clink: ""
       slink: ""
-      wlink: ""
+      wlink: "https://doi.org/10.1016/j.cie.2010.08.021"
 
     - year: 2009
       topic: "Chen, H. and Y. Cheng (2009).  Designing Xbar Charts for Known Autocorrelations and Unknown Marginal Distribution. <i>European Journal of Operational Research</i> <b>198</b>(2), 520–529."
       link: "2009Designing_Xbar_Charts_for_Known_Autocorrelations_and_Unknown_Marginal_Distribution/paper.pdf"
       clink: ""
       slink: "2009Designing_Xbar_Charts_for_Known_Autocorrelations_and_Unknown_Marginal_Distribution/supplement.pdf"
+      wlink: "https://doi.org/10.1016/j.ejor.2008.09.007"
+
+    - year: 2007
+      topic: "Chen, H. (2007).  Stochastic Optimization in Computing Multiple Headways for a Single Bus Line.  <i>Journal of the Chinese Institute of Industrial Engineers</i> <b>24</b>, No. 5, 351–359."
+      link: ""
+      clink: ""
+      slink: ""
       wlink: ""
 
     - year: 2007
@@ -82,7 +89,7 @@ journal:
       link: "2007Nonnormality_Effects_on_the_Economic-Statistical_Design_of_Xbar_Charts_with_Weibull_In-Control_Time.pdf"
       clink: ""
       slink: ""
-      wlink: ""
+      wlink: "https://doi.org/10.1016/j.ejor.2005.08.022"
 
     - year: 2006
       topic: "Chen, H. and Y. Hwuang (2006).  Stochastic Optimization for System Designs.  <i>Journal of the Chinese Institute of Industrial Engineers</i> <b>26</b>, No. 5, 357–370.    (EI)"
@@ -103,7 +110,7 @@ journal:
       link: "2005Asymptotic_Results_for_Batch-Variance_Methods_in_Simulation_Output_Analysis.pdf"
       clink: ""
       slink: ""
-      wlink: ""
+      wlink: "https://doi.org/10.1016/j.cie.2003.12.024"
 
     - year: 2004
       topic: "Chen, H. and M. Chen (2004).  Designing Simulation Software for City Bus Systems.  <i>Chung-Yuan Journal</i> <b>32</b>, No. 3, 349–362.  (Chinese)"
@@ -117,7 +124,7 @@ journal:
       link: ""
       clink: ""
       slink: ""
-      wlink: ""
+      wlink: "https://doi.org/10.1016/S0377-2217(02)00821-4"
 
     - year: 2002
       topic: "Chen, H., W.T. Song, and Z. Lee (2002).  RA-Quadsection Methods for Two-Dimensional Stochastic Root Finding.  <i>Journal of the Chinese Institute of Industrial Engineers</i> <b>19</b>, 93–104.  (Chinese)  (EI)"
@@ -145,7 +152,7 @@ journal:
       link: "2001Initialization_for_NORTA_Generation_of_Random_Vectors_with_Specified_Marginals_and_Correlations/MultivariatePaper.pdf"
       clink: "2001Initialization_for_NORTA_Generation_of_Random_Vectors_with_Specified_Marginals_and_Correlations/NORTA_C_code.zip"
       slink: ""
-      wlink: ""
+      wlink: "https://doi.org/10.1287/ijoc.13.4.312.9736"
 
     - year: 2001
       topic: "Chen, H. and H. Chen (2001).  A Heuristic Algorithm for Stochastic Root Finding.  <i>Asia-Pacific Journal of Operational Research</i> <b>18</b>, 13–22.    "
@@ -159,21 +166,21 @@ journal:
       link: "2001Stochastic_Root_Finding_via_Retrospective_Approximation/paper.pdf"
       clink: "2001Stochastic_Root_Finding_via_Retrospective_Approximation/SRFP-code.zip"
       slink: ""
-      wlink: ""
+      wlink: "https://link.springer.com/article/10.1023/A:1007663818987"
 
     - year: 1999
       topic: "Chen, H. and T.-K. Yang (1999).  Computation of the Sample Size and Coverage for Guaranteed-Coverage Nonnormal Tolerance Intervals.  <i>Journal of Statistical Computation and Simulation</i> <b>63</b>, 299–320.   "
       link: "1999Computation of the Sample Size and Coverage for Guaranteed-Coverage Nonnormal Tolerance Intervals.pdf"
       clink: "GCTI-code.exe"
       slink: ""
-      wlink: ""
+      wlink: "https://doi.org/10.1080/00949659908811959"
 
     - year: 1995
       topic: "Chen, H. and B.W. Schmeiser (1995).  Monte Carlo Estimation for Guaranteed-Coverage Nonnormal Tolerance Intervals.  <i>Journal of Statistical Computation and Simulation</i> <b>51</b>, 223–238.   "
       link: "1995Monte_Carlo_Estimation_for_Guaranteed-Coverage_Nonnormal_Tolerance_Intervals.pdf"
       clink: ""
       slink: ""
-      wlink: ""
+      wlink: "https://doi.org/10.1080/00949659508811634"
 
 
 proceed:
