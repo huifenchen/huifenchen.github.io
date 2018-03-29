@@ -1,8 +1,17 @@
-school: 中原大學 工業與系統工程系<br>Chung Yuan Christian University Department of Industrial and Systems Engineering
-address: "32023 桃園市中壢區中北路200號<br> 200 Chung Pei Road, Chung Li District, Taoyuan City, Taiwan 32023, R.O.C." 
+name: 陳慧芬
+name_e: HuiFen Chen
+role: 教授
+role_e: Professor
+school: 中原大學<br> 工業與系統工程系
+school_e: Department of Industrial and Systems Engineering<br>Chung Yuan Christian University 
+address: "32023 桃園市中壢區中北路200號" 
+address_e: "200 Chung Pei Road, Chung Li District, Taoyuan City, Taiwan 32023, R.O.C."
 tel: (03)2654413
 phone: 0933-962-472
 fax: (03)2654499
+tel_e: +886-3-2654413
+phone_e: +886-933-962-472
+fax_e: +886-3-2654499
 email: huifen@cycu.edu.tw
 education:
     - school: Purdue University

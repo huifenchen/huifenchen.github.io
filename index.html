@@ -2,6 +2,38 @@
 layout: page 
 title: Profile
 ---
+<div class="row">
+  <div class="col">
+<img class="rounded align-middle " src="/assets/pic.jpg" alt="" width="60%">
+  </div>
+  <div class="col border">
+<ul>
+  {% assign profile = site.data.profile %}
+  <li>{{ profile.name }}</li>
+  <li>{{ profile.role }}</li>
+  <li>{{ profile.school }}</li>
+  <li>{{ profile.address }}</li>
+  <li>{{ profile.tel }}</li>
+  <li>{{ profile.phone }}</li>
+  <li>Fax&nbsp;:&nbsp;{{ profile.fax }}</li>
+  <li>{{ profile.email }}</li>
+</ul>
+  </div>
+  <div class="col-5 border">
+<ul>
+  {% assign profile = site.data.profile %}
+  <li>{{ profile.name_e }}</li>
+  <li>{{ profile.role_e }}</li>
+  <li>{{ profile.school_e }}</li>
+  <li>{{ profile.address_e}}</li>
+  <li>{{ profile.tel_e }}</li>
+  <li>{{ profile.phone_e }}</li>
+  <li>Fax&nbsp;:&nbsp;{{ profile.fax_e }}</li>
+  <li>{{ profile.email }}</li>
+</ul>
+  </div>
+  </div>
+
 
 <h2>Education</h2>
 <ul>
@@ -25,3 +57,232 @@ title: Profile
   </li>
   {% endfor %}
 </ul>
+
+<h2>Teaching Courses</h2>
+<ul>
+  {% for course in site.data.course %}
+    {% if course.link == "" %}
+      <li>{{ course.code }}&nbsp;:&nbsp;{{ course.name }}</li>
+    {% else %}
+      <li><a href="{{ course.link }}">{{ course.code }}</a>&nbsp;:&nbsp;{{ course.name }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>Teaching Intersets</h2>
+<ul>
+  {% for inter in site.data.interest.teach %}
+  <li>{{ inter.topic }}</li>
+  {% endfor %}
+</ul>
+
+<h2>Research Intersets</h2>
+<ul>
+  {% for inter in site.data.interest.research %}
+  <li>{{ inter.topic }}</li>
+  {% endfor %}
+</ul>
+
+{% assign now_year = site.time | date: '%Y' | minus: 10 %}
+<h2>Publications</h2>
+  <h4>Papers (Recent 10 years)</h4>
+    <h5>Journal papers</h5>
+    <ul>
+      {% for paper in site.data.paper.journal %}
+      {% if paper.year >= now_year %}
+        {% if paper.link == "" and paper.clink != "" and paper.slink == "" %}
+
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)</li>
+              {% else %}
+              <li>{{ paper.topic }}(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)</li>
+              {% endif %}
+
+        {% elsif paper.link != "" and paper.clink == "" and paper.slink == ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">code</a>)</li>
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)</li>
+              {% endif %}
+        {% elsif paper.link != "" and paper.clink != "" and paper.slink == ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)</li>
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)</li>
+              {% endif %}
+        {% elsif paper.slink != "" and paper.clink == ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)</li>
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)</li>
+              {% endif %}
+        {% elsif paper.slink != "" and paper.clink != ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)</li>
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)</li>
+              {% endif %}
+        {% else %}
+            <li>{{ paper.topic }}</li>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </ul>
+    <h5>Procedding papers</h5>
+    <ul>
+      {% for paper in site.data.paper.proceed %}
+      {% if paper.year >= now_year %}
+        {% if paper.link == "" and paper.clink != "" and paper.slink == "" %}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% else %}
+              <li>{{ paper.topic }}(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% endif %}
+        {% elsif paper.link != "" and paper.clink == "" and paper.slink == ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">code</a>)
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)
+              {% endif %}
+        {% elsif paper.link != "" and paper.clink != "" and paper.slink == ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% endif %}
+        {% elsif paper.slink != "" and paper.clink == ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)
+              {% endif %}
+        {% elsif paper.slink != "" and paper.clink != ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% endif %}
+        {% else %}
+            <li>{{ paper.topic }}</li>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </ul>
+  <h4>Other papers</h4>
+    <h5>Journal papers</h5>
+    <ul>
+      {% for paper in site.data.paper.journal %}
+      {% if paper.year < now_year %}
+        {% if paper.link == "" and paper.clink != "" and paper.slink == "" %}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% else %}
+              <li>{{ paper.topic }}(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% endif %}
+        {% elsif paper.link != "" and paper.clink == "" and paper.slink == ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">code</a>)
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)
+              {% endif %}
+        {% elsif paper.link != "" and paper.clink != "" and paper.slink == ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% endif %}
+        {% elsif paper.slink != "" and paper.clink == ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)
+              {% endif %}
+        {% elsif paper.slink != "" and paper.clink != ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% endif %}
+       {% else %}
+            <li>{{ paper.topic }}</li>
+      {% endif %}
+               {% endif %}
+               {% endfor %}
+    </ul>
+    <h5>Procedding papers</h5>
+    <ul>
+      {% for paper in site.data.paper.proceed %}
+      {% if paper.year < now_year %}
+        {% if paper.link == "" and paper.clink != "" and paper.slink == "" %}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% else %}
+              <li>{{ paper.topic }}(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% endif %}
+        {% elsif paper.link != "" and paper.clink == "" and paper.slink == ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">code</a>)
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)
+              {% endif %}
+        {% elsif paper.link != "" and paper.clink != "" and paper.slink == ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% endif %}
+        {% elsif paper.slink != "" and paper.clink == ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)
+              {% endif %}
+        {% elsif paper.slink != "" and paper.clink != ""%}
+              {% if paper.wlink != "" %}
+              <li><a href"{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% else %}
+            <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.slink }}" target="_blank">supplement</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)
+              {% endif %}
+        {% else %}
+            <li>{{ paper.topic }}</li>
+      {% endif %}
+                      {% endif %}
+                      {% endfor %}
+    </ul>
+
+<h2>Projects</h2>
+<table class="table table-bordered" style="width:100%;font-size:14px">
+  <tr>
+    <th>計畫名稱</th>
+    <th>計畫名稱</th>
+    <th>補助機關</th>
+    <th>期間</th>
+  </tr>
+  {% for project in site.data.projects %}
+  <tr>
+    <td style="width:50%" >{{ project.name }}</td>
+    <td style="width:auto">{{ project.role }}</td>
+    <td style="width:20%" >{{ project.sup}}</td>
+    <td style="width:auto">{{ project.times }}</td>
+  </tr>
+  {% endfor %}
+</table>
+<table class="table table-bordered" style="width:100%;font-size:14px">
+  <tr>
+    <th class="text-center" colspan="4">大專學生參與專題研究計畫</th>
+  </tr>
+  <tr>
+    <th>計畫名稱</th>
+    <th>計畫名稱</th>
+    <th>補助機關</th>
+    <th>期間</th>
+  </tr>
+  {% for project in site.data.stu_project %}
+  <tr>
+    <td style="width:50%">{{ project.name }}</td>
+    <td style="width:auto">{{ project.role }}</td>
+    <td style="width:20%">{{ project.sup}}</td>
+    <td style="width:auto">{{ project.times }}</td>
+  </tr>
+  {% endfor %}
+</table>
