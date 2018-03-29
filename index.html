@@ -13,10 +13,10 @@ title: Profile
   <li>{{ profile.role }}</li>
   <li>{{ profile.school }}</li>
   <li>{{ profile.address }}</li>
-  <li>{{ profile.tel }}</li>
-  <li>{{ profile.phone }}</li>
+  <li>Tel&nbsp;:&nbsp;{{ profile.tel }}</li>
+  <li>Cell&nbsp;:&nbsp;{{ profile.phone }}</li>
   <li>Fax&nbsp;:&nbsp;{{ profile.fax }}</li>
-  <li>{{ profile.email }}</li>
+  <li>E-mail&nbsp;:&nbsp;{{ profile.email }}</li>
 </ul>
   </div>
   <div class="col-5 border">
@@ -26,16 +26,15 @@ title: Profile
   <li>{{ profile.role_e }}</li>
   <li>{{ profile.school_e }}</li>
   <li>{{ profile.address_e}}</li>
-  <li>{{ profile.tel_e }}</li>
-  <li>{{ profile.phone_e }}</li>
+  <li>Cell&nbsp;:&nbsp;{{ profile.phone_e }}, Tel&nbsp;:&nbsp;{{ profile.tel_e }}</li>
   <li>Fax&nbsp;:&nbsp;{{ profile.fax_e }}</li>
-  <li>{{ profile.email }}</li>
+  <li>E-mail&nbsp;:&nbsp;{{ profile.email }}</li>
 </ul>
   </div>
   </div>
 
 
-<h2>Education</h2>
+<h2 id="edu">Education</h2>
 <ul>
   {% for edu in site.data.profile.education %}
   <li>
@@ -45,7 +44,7 @@ title: Profile
   {% endfor %}
 </ul>
 
-<h2>Working Experience</h2>
+<h2 id="workexp">Working Experience</h2>
 <ul>
   {% for work in site.data.profile.work %}
   <li>
@@ -57,6 +56,8 @@ title: Profile
   </li>
   {% endfor %}
 </ul>
+<div id="course">
+</div>
 
 <h2>Teaching Courses</h2>
 <ul>
@@ -69,14 +70,14 @@ title: Profile
   {% endfor %}
 </ul>
 
-<h2>Teaching Intersets</h2>
+<h2 id="tint">Teaching Intersets</h2>
 <ul>
   {% for inter in site.data.interest.teach %}
   <li>{{ inter.topic }}</li>
   {% endfor %}
 </ul>
 
-<h2>Research Intersets</h2>
+<h2 id="rint">Research Intersets</h2>
 <ul>
   {% for inter in site.data.interest.research %}
   <li>{{ inter.topic }}</li>
@@ -84,7 +85,7 @@ title: Profile
 </ul>
 
 {% assign now_year = site.time | date: '%Y' | minus: 10 %}
-<h2>Publications</h2>
+<h2 id="pub">Publications</h2>
   <h4>Papers (Recent 10 years)</h4>
     <h5>Journal papers</h5>
     <ul>
@@ -250,7 +251,7 @@ title: Profile
                       {% endfor %}
     </ul>
 
-<h2>Projects</h2>
+<h2 id="proj">Projects</h2>
 <table class="table table-bordered" style="width:100%;font-size:14px">
   <tr>
     <th>計畫名稱</th>
