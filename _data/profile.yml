@@ -27,29 +27,23 @@ education:
       degree: B.S.
 work:
 
-    - company: 中原大學 工業與系統工程系
-      role: 教授
-      company_e: Chung Yuan Christian University, Department of Industrial and Systems Engineering
-      role_e: Professor
+    - company: Chung Yuan Christian University, Department of Industrial and Systems Engineering
+      role: Professor
       start: 2005/8
       end: present
 
-    - company: 中原大學 工業與系統工程系
-      role: 副教授
-      company_e: Chung Yuan Christian University, Department of Industrial and Systems Engineering
-      role_e: Associate Professor
+    - company: Chung Yuan Christian University, Department of Industrial and Systems Engineering
+      role: Associate Professor
       start: 1999/8
       end: 2005/7
 
-    - company: 大葉大學 工業工程系
-      role: 副教授
-      company_e: Da-Yeh University, Department of Industrial and Systems Engineering
-      role_e: Associate Professor
+    - company: Da-Yeh University, Department of Industrial and Systems Engineering
+      role: Associate Professor
       start: 1994/9
       end: 1999/7
 
-    - company: 安侯協和會計師事務所
-      role: 助理查帳員
+    - company: KPMG CPA Firm, Taipei, Taiwan
+      role: Assistant Auditor
       start: 1986
       end: 1987
 

@@ -4,7 +4,7 @@ title: Profile
 ---
 <div class="row">
   <div class="col">
-<img class="rounded align-middle " src="/assets/pic.jpg" alt="" width="60%">
+<img class="rounded align-middle " src="/assets/pic.jpg" alt="">
   </div>
   <div class="col border">
 <ul>
@@ -34,7 +34,7 @@ title: Profile
   </div>
 
 
-<h2 id="edu">Education</h2>
+<h3 id="edu">Education</h3>
 <ul>
   {% for edu in site.data.profile.education %}
   <li>
@@ -44,14 +44,12 @@ title: Profile
   {% endfor %}
 </ul>
 
-<h2 id="workexp">Working Experience</h2>
+<h3 id="workexp">Working Experience</h3>
 <ul>
   {% for work in site.data.profile.work %}
   <li>
     {{ work.role }}<br>
     {{ work.company }}<br>
-    {{ work.role_e }}<br>
-    {{ work.company_e }}<br>
     {{ work.start }} ~ {{ work.end }}
   </li>
   {% endfor %}
@@ -59,7 +57,7 @@ title: Profile
 <div id="course">
 </div>
 
-<h2>Teaching Courses</h2>
+<h3>Teaching Courses</h3>
 <ul>
   {% for course in site.data.course %}
     {% if course.link == "" %}
@@ -70,14 +68,14 @@ title: Profile
   {% endfor %}
 </ul>
 
-<h2 id="tint">Teaching Intersets</h2>
+<h3 id="tint">Teaching Intersets</h3>
 <ul>
   {% for inter in site.data.interest.teach %}
   <li>{{ inter.topic }}</li>
   {% endfor %}
 </ul>
 
-<h2 id="rint">Research Intersets</h2>
+<h3 id="rint">Research Intersets</h3>
 <ul>
   {% for inter in site.data.interest.research %}
   <li>{{ inter.topic }}</li>
@@ -85,9 +83,9 @@ title: Profile
 </ul>
 
 {% assign now_year = site.time | date: '%Y' | minus: 10 %}
-<h2 id="pub">Publications</h2>
-  <h4>Papers (Recent 10 years)</h4>
-    <h5>Journal papers</h5>
+<h3 id="pub">Publications</h3>
+  <h5>Papers (Recent 10 years)</h5>
+    <h6>Journal papers</h6>
     <ul>
       {% for paper in site.data.paper.journal %}
       {% if paper.year >= now_year %}
@@ -101,13 +99,13 @@ title: Profile
 
         {% elsif paper.link != "" and paper.clink == "" and paper.slink == ""%}
               {% if paper.wlink != "" %}
-              <li><a href="{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">code</a>)</li>
+              <li><a href="{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)</li>
               {% else %}
             <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)</li>
               {% endif %}
         {% elsif paper.link != "" and paper.clink != "" and paper.slink == ""%}
               {% if paper.wlink != "" %}
-              <li><a href="{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)</li>
+              <li><a href="{{ paper.wlink }}" target="_blank">{{ paper.topic }}111111</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)</li>
               {% else %}
             <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)(<a href="/assets/{{ paper.clink }}" target="_blank">code</a>)</li>
               {% endif %}
@@ -129,7 +127,7 @@ title: Profile
       {% endif %}
       {% endfor %}
     </ul>
-    <h5>Procedding papers</h5>
+    <h6>Procedding papers</h6>
     <ul>
       {% for paper in site.data.paper.proceed %}
       {% if paper.year >= now_year %}
@@ -141,7 +139,7 @@ title: Profile
               {% endif %}
         {% elsif paper.link != "" and paper.clink == "" and paper.slink == ""%}
               {% if paper.wlink != "" %}
-              <li><a href="{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">code</a>)
+              <li><a href="{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)
               {% else %}
             <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)
               {% endif %}
@@ -169,8 +167,8 @@ title: Profile
       {% endif %}
       {% endfor %}
     </ul>
-  <h4>Other papers</h4>
-    <h5>Journal papers</h5>
+  <h5>Other papers</h5>
+    <h6>Journal papers</h6>
     <ul>
       {% for paper in site.data.paper.journal %}
       {% if paper.year < now_year %}
@@ -182,7 +180,7 @@ title: Profile
               {% endif %}
         {% elsif paper.link != "" and paper.clink == "" and paper.slink == ""%}
               {% if paper.wlink != "" %}
-              <li><a href="{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">code</a>)
+              <li><a href="{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)
               {% else %}
             <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)
               {% endif %}
@@ -210,7 +208,7 @@ title: Profile
                {% endif %}
                {% endfor %}
     </ul>
-    <h5>Procedding papers</h5>
+    <h6>Procedding papers</h6>
     <ul>
       {% for paper in site.data.paper.proceed %}
       {% if paper.year < now_year %}
@@ -222,7 +220,7 @@ title: Profile
               {% endif %}
         {% elsif paper.link != "" and paper.clink == "" and paper.slink == ""%}
               {% if paper.wlink != "" %}
-              <li><a href="{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">code</a>)
+              <li><a href="{{ paper.wlink }}" target="_blank">{{ paper.topic }}</a>(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)
               {% else %}
             <li>{{ paper.topic }}(<a href="/assets/{{ paper.link }}" target="_blank">paper</a>)
               {% endif %}
@@ -251,7 +249,7 @@ title: Profile
                       {% endfor %}
     </ul>
 
-<h2 id="proj">Projects</h2>
+<h3 id="proj">Projects</h3>
 <table class="table table-bordered" style="width:100%;font-size:14px">
   <tr>
     <th>計畫名稱</th>
@@ -287,3 +285,6 @@ title: Profile
   </tr>
   {% endfor %}
 </table>
+<style>
+ul { padding-left: 1.2em; }
+</style>
