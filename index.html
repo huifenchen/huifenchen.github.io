@@ -34,7 +34,7 @@ title: Profile
   </div>
 
 
-<h3 id="edu">Education</h3>
+<h5 id="edu">Education</h5>
 <ul>
   {% for edu in site.data.profile.education %}
   <li>
@@ -44,7 +44,7 @@ title: Profile
   {% endfor %}
 </ul>
 
-<h3 id="workexp">Working Experience</h3>
+<h5 id="workexp">Working Experience</h5>
 <ul>
   {% for work in site.data.profile.work %}
   <li>
@@ -57,7 +57,7 @@ title: Profile
 <div id="course">
 </div>
 
-<h3>Teaching Courses</h3>
+<h5>Teaching Courses</h5>
 <ul>
   {% for course in site.data.course %}
     {% if course.link == "" %}
@@ -68,14 +68,14 @@ title: Profile
   {% endfor %}
 </ul>
 
-<h3 id="tint">Teaching Intersets</h3>
+<h5 id="tint">Teaching Intersets</h5>
 <ul>
   {% for inter in site.data.interest.teach %}
   <li>{{ inter.topic }}</li>
   {% endfor %}
 </ul>
 
-<h3 id="rint">Research Intersets</h3>
+<h5 id="rint">Research Intersets</h5>
 <ul>
   {% for inter in site.data.interest.research %}
   <li>{{ inter.topic }}</li>
@@ -83,7 +83,7 @@ title: Profile
 </ul>
 
 {% assign now_year = site.time | date: '%Y' | minus: 10 %}
-<h3 id="pub">Publications</h3>
+<h5 id="pub">Publications</h5>
   <h5>Papers (Recent 10 years)</h5>
     <h6>Journal papers</h6>
     <ul>
@@ -249,7 +249,7 @@ title: Profile
                       {% endfor %}
     </ul>
 <!--
-<h3 id="proj">Projects</h3>
+<h5 id="proj">Projects</h5>
 <table class="table table-bordered" style="width:100%;font-size:14px">
   <tr>
     <th>計畫名稱</th>
