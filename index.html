@@ -21,7 +21,14 @@ title: Profile
   <div class="col-5 border">
 <ul>
   {% assign profile = site.data.profile %}
-
+  <li>{{ profile.name }}</li>
+  <li>{{ profile.role }}</li>
+  <li>{{ profile.school }}</li>
+  <li>{{ profile.address }}</li>
+  <li>Tel&nbsp;:&nbsp;{{ profile.tel }}</li>
+  <li>Cell&nbsp;:&nbsp;{{ profile.phone }}</li>
+  <li>Fax&nbsp;:&nbsp;{{ profile.fax }}</li>
+  <li>E-mail&nbsp;:&nbsp;{{ profile.email }}</li>
 </ul>
   </div>
   </div>
