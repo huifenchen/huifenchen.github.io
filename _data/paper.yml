@@ -170,8 +170,8 @@ journal:
 
     - year: 1999
       topic: "Chen, H. and T.-K. Yang (1999).  Computation of the Sample Size and Coverage for Guaranteed-Coverage Nonnormal Tolerance Intervals.  <i>Journal of Statistical Computation and Simulation</i> <b>63</b>, 299–320.   "
-      link: "1999Computation of the Sample Size and Coverage for Guaranteed-Coverage Nonnormal Tolerance Intervals.pdf"
-      clink: "GCTI-code.exe"
+      link:  "1999Computation_of_the_Sample_Size_and_Coverage_for_Guaranteed-Coverage_Nonnormal_Tolerance_Intervals/GCTI-paper.pdf"
+      clink: "1999Computation_of_the_Sample_Size_and_Coverage_for_Guaranteed-Coverage_Nonnormal_Tolerance_Intervals/GCTI-code.exe"
       slink: ""
       wlink: "https://doi.org/10.1080/00949659908811959"
 
