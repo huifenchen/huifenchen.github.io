@@ -22,11 +22,11 @@ journal:
       wlink: "https://doi.org/10.1080/03610918.2016.1171347"
 
     - year: 2015
-      topic: "Ho, Y.-C., B.-H. Su, H.-J. Su, H.-L. Chang, C.-Y. Lin, H. Chen, and K. T Chen. (2015). The association between the incidence of mumps and meteorological parameters in Taiwan.<i>Human vaccines & immunotherapeutics</i> <b>11</b>:6, 1406-1412."
+      topic: "Ho, Y.-C., B.-H. Su, H.-J. Su, H.-L. Chang, C.-Y. Lin, H. Chen, and K. T Chen. (2015). The association between the incidence of mumps and meteorological parameters in Taiwan. <i>Human vaccines & immunotherapeutics</i> <b>11</b>:6, 1406-1412."
       link: ""
       clink: ""
       slink: ""
-      wlink: "https://doi.org/10.1080/21645515.2015.1029687"
+      wlink: "https://www.tandfonline.com/doi/full/10.1080/21645515.2015.1029687"
 
     - year: 2014
       topic: "Chen, H. and C. Huang (2014).  The Use of a CUSUM Residual Chart to Monitor Respiratory Syndromic Data.  <i>IIE Transactions</i>, Special Issue on “Public Health and Healthcare Surveillance and Response,” <b>46</b>(8), 790-797.  "
@@ -220,7 +220,7 @@ proceed:
       wlink: ""
 
     - year: 2011
-      topic: "H. Chen and K.-Y. Wu (2011).  Pandemic Influenza Simulation with Taiwan Population Data.  Poster Session.  <i>IIE Asian Conference</i>, June 2011, Shanghai, China."
+      topic: "Chen, H. and K.-Y. Wu (2011).  Pandemic Influenza Simulation with Taiwan Population Data.  Poster Session.  <i>IIE Asian Conference</i>, June 2011, Shanghai, China."
       link: ""
       clink: ""
       slink: ""
