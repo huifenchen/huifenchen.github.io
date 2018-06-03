@@ -57,7 +57,7 @@ journal:
       wlink: ""
 
     - year: 2011
-      topic: "Chen, H. and Y. Pao (2011).  The Joint Economic-Statistical Design of Xbar and R Charts for Nonnormal Data.  <i>Quality and Reliability Engineering International</i> <b>27</b>, No. 3, 269–280. Article first published online: 15 JUL 2010, DOI: 10.1002/qre.1116."
+      topic: "Chen, H. and Y. Pao (2011).  The Joint Economic-Statistical Design of Xbar and R Charts for Nonnormal Data.  <i>Quality and Reliability Engineering International</i> <b>27</b>, No. 3, 269–280."
       link: "2011The_Joint_Economic-Statistical_Design_of__Xbar_and_R_Charts_for_Nonnormal_Data.pdf"
       clink: ""
       slink: ""
@@ -193,7 +193,7 @@ proceed:
 
     - year: 2015
       topic: "Chen, H. and B.W. Schmeiser (2015). The MNO–PQRS Poisson Point Process: Generating the Next-Event Time. <i>Proceedings of the 2015 Winter Simulation Conference</i>, ed. L. Yilmaz,W. K V. Chan, I. Moon, T. M. K. Roeder, C. Macal, and M. D. Rossetti, December 6-9, 2015, Huntington Beach, California, USA.  Piscataway, New Jersey: Institute of Electrical and Electronics Engineers.  "
-      link: "2015The_MNO–PQRS_Poisson_Point_Process_Generating_the_Next-Event_Tim/15-07-22wsc15CreatedByProceedingsEditor.pdf"
+      link: "2015The_MNO-PQRS_Poisson_Point_Process_Generating_the_Next-Event_Time/15-07-22wsc15CreatedByProceedingsEditor.pdf"
       clink: ""
       slink: ""
       wlink: ""
